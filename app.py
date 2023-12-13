@@ -10,6 +10,9 @@ from dateparser import date_parser
 from location import LocationExtractor
 import time
 
+import spacy.cli
+spacy.cli.download("en_core_web_trf")
+
 
 service_account = 'isronrsc@isro-407105.iam.gserviceaccount.com'
 credentials = ee.ServiceAccountCredentials(service_account, 'isro-407105-31fe627b6f09.json')
