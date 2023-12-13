@@ -1,0 +1,9 @@
+stanza
+dateparser
+spacy==3.6.1
+earthengine-api
+geemap
+pandas 
+nltk
+streamlit-folium
+streamlit
